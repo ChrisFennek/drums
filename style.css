@@ -1,8 +1,16 @@
 html {
   font-size: 10px;
   background: rgb(9, 86, 121);
-
+  background: url(drums.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
 }
+
+
 
 body,
 html {
@@ -11,14 +19,15 @@ html {
   font-family: sans-serif;
 }
 
+
 #title {
   font-size: 4rem;
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 30px;
   margin-bottom: 200px;
-  color: #00ffff;
+  color: white;
 }
 
 .keys {
